@@ -1,0 +1,28 @@
+.btn1{
+    font-size: 14px;
+    border: 1px solid transparent;
+    width: 160px;
+    text-align: center;
+    color: white;
+    font-family: 'Nunito Sans';
+    border-radius: 2px;
+    transition: all .5s;
+    display: block;
+}
+.btn1.C-red{
+    background-color: rgb(246, 32, 32);
+}
+.hovTranseparant:hover{
+    background-color: transparent;
+    border: 1px solid;
+}
+.hovTwhite:hover{
+    background-color: white !important;
+    color: black;
+    border: 1px solid transparent !important;
+}
+.btn1.C-transperant{
+    background-color: transparent;
+    border: 1px solid;
+    margin: 0 10px;
+}

@@ -1,0 +1,156 @@
+@import url(./font.css);
+img{
+    width: 100%;
+    display: block;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    text-transform: capitalize;
+    font-family: 'Nunito Sans';
+    color: #616161;
+    font-size: 16px;
+    line-height: 1.875;
+    font-weight: 400;
+    width: 100%;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, span, a, p{
+    font-family: 'Amiri';
+    font-weight: 700;
+    line-height: 50px;
+}
+.nav-link.active{
+    color: white !important;
+}
+.nav-link.active::before{
+    content: '';
+    background: red;
+    width: 2px;
+    height: 55%;
+    position: absolute;
+    left: 36%;
+    top: -18px;
+    transform: translate(10px, 3px);
+    visibility: visible;
+}
+.h-100px{
+  height: 100px;
+}
+.h-600px{
+  height: 600px !important;
+}
+
+
+.load {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    position: fixed;
+    z-index: 99999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    --cell-size: 52px;
+    --cell-spacing: 1px;
+    --cells: 3;
+    --total-size: calc(var(--cells) * (var(--cell-size) + 2 * var(--cell-spacing)));
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--total-size);
+    height: var(--total-size);
+  }
+  
+  .cell {
+    flex: 0 0 var(--cell-size);
+    margin: var(--cell-spacing);
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 4px;
+    animation: 1.5s ripple ease infinite;
+  }
+  
+  .cell.d-1 {
+    animation-delay: 100ms;
+  }
+  
+  .cell.d-2 {
+    animation-delay: 200ms;
+  }
+  
+  .cell.d-3 {
+    animation-delay: 300ms;
+  }
+  
+  .cell.d-4 {
+    animation-delay: 400ms;
+  }
+  
+  .cell:nth-child(1) {
+    --cell-color: #00FF87;
+  }
+  
+  .cell:nth-child(2) {
+    --cell-color: #0CFD95;
+  }
+  
+  .cell:nth-child(3) {
+    --cell-color: #17FBA2;
+  }
+  
+  .cell:nth-child(4) {
+    --cell-color: #23F9B2;
+  }
+  
+  .cell:nth-child(5) {
+    --cell-color: #30F7C3;
+  }
+  
+  .cell:nth-child(6) {
+    --cell-color: #3DF5D4;
+  }
+  
+  .cell:nth-child(7) {
+    --cell-color: #45F4DE;
+  }
+  
+  .cell:nth-child(8) {
+    --cell-color: #53F1F0;
+  }
+  
+  .cell:nth-child(9) {
+    --cell-color: #60EFFF;
+  }
+  
+  /*Animation*/
+  @keyframes ripple {
+    0% {
+      background-color: transparent;
+    }
+  
+    30% {
+      background-color: var(--cell-color);
+    }
+  
+    60% {
+      background-color: transparent;
+    }
+  
+    100% {
+      background-color: transparent;
+    }
+  }
+.carousel-control-next, .carousel-control-prev {
+    z-index: 9;
+}
+/*fixed*/

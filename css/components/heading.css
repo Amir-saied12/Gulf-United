@@ -1,0 +1,18 @@
+.title span{
+    color: #ed100c;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Nunito Sans';
+    margin: 15px 0;
+    display: block;
+}
+.title h1,.title h2,.title h3,.title h4, .title h5,.title h6{
+    color: #222222;
+}
+.title p{
+    margin: 0 0 20px 0;
+    color: #616161;
+    font-family: "Nunito Sans", Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}

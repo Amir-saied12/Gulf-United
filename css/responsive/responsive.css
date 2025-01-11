@@ -1,0 +1,343 @@
+@media (max-width: 1400px) {
+    .bg-animat .carousel-item.vh-100 {
+        height: auto !important;
+    }
+    .row.vh-100.align-items-center {
+        height: auto !important;
+    }
+}
+@media (max-width:1280px) {
+    .nav-link{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-brand img {
+        width: 80%;
+    }
+}
+@media (max-width: 1124px) {
+    .nav-link{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1084px) {
+    div#navbarSupportedContent {
+        margin-inline-start: 35px;
+    }
+    .filter {
+        height: 318px !important;
+    }
+    .nav-link {
+        font-family: 'Nunito Sans';
+        font-size: 10px;
+        color: white;
+        letter-spacing: 0px;
+        position: relative;
+    }
+    .navbar-brand {
+        width: 140px;
+    }
+    .box-abs .text blockquote {
+        padding: 26px 0 0 26px !important;
+    }
+    .box-abs .text blockquote p {
+        font-size: 23px !important;
+    }
+    .inside h2{
+        font-size: 20px;
+    }
+    small {
+        font-size: 11px;
+    }
+    .MainProducts .shadow {
+        padding: 0 6px !important;
+    }
+    .MainProducts .textPro span {
+        right: 40px !important;
+        top: -6px;
+        font-size: 20px !important;
+    }
+    .count .row{
+        width: 100%;
+    }
+    footer .copyRight {
+        width: 80%;
+    }
+    footer .text-foot h2 {
+        font-size: 14px !important;
+    }
+    .btn1 {
+        font-size: 10px;
+        width: 98px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 992px) {
+    small {
+        font-size: 25px;
+    }
+    .inside h2 {
+        font-size: 30px;
+    }
+    .service .card .inside {
+        width: 75% !important;
+    }
+    .serv .image {
+        height: 550px !important;
+        width: 100% m !important;
+    }
+    .serv .image img {
+        bottom: 0 !important;
+        left: 0;
+        width: 50%;
+    }
+    .tag h4{
+        font-size: 16px;
+    }
+    .tag span {
+        font-size: 24px;
+    }
+    .count{
+        position: relative !important;
+    }
+    section .row{
+        justify-content: center;
+    }
+    .title{
+        width: 100% !important;
+    }
+    .post-data {
+        top: 0 !important;
+        right: 0 !important;
+    }
+    footer .text-foot h2 {
+        font-size: 22px;
+    }
+    footer .text-foot {
+        background-position: 30% 20%;
+    }
+    footer .col-lg-3.px-0 .d-flex{
+        justify-content: space-evenly;
+    }
+    .text-bg h2 {
+        font-size: 35px !important;
+        line-height: 65px !important;
+    }
+    .carousel-caption.d-none.d-md-block {
+        align-items: center;
+        display: flex !important;
+        height: 100%;
+    }
+    .text-section-img ul li {
+        justify-content: flex-start !important;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .collapse {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+    .header {
+        padding: 10px;
+    }
+    .tag h4 {
+        font-size: 11px !important;
+    }
+    .tag span {
+        font-size: 25px !important;
+    }
+    footer .copyRight p {
+        font-size: 12px !important;
+    }
+}
+@media (max-width: 620px) {
+    .text-bg h2 {
+        font-size: 21px !important;
+        line-height: 58px !important;
+    }
+
+    .footer {
+        text-align: center;
+    }
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    footer p {
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 1.5;
+        color: #ffffffd4;
+    }
+    footer span {
+        color: #ff0000e3;
+        margin: 0 10px;
+        font-size: 25px;
+    }
+    footer .bg-copy {
+        padding: 0px 20px;
+    }
+    .text-bg {
+        margin-top: 70px;
+    }
+    .text-bg span {
+        font-size: 10px !important;
+    }
+    small {
+        font-size: 15px;
+    }
+}
+    
+@media (max-width: 576px) {
+    .filter {
+        height: 318px !important;
+    }
+    footer .copyRight p {
+        font-size: 10px !important;
+    }
+    .bg-partners p {
+        font-size: 20px !important;
+    }
+    .bg-partners .textPar h4 {
+        font-size: 30px !important;
+    }
+    .bg-partners .textPar h6 {
+        font-size: 17px !important;
+    }
+    .bg-partners .ImgPar {
+        width: 140px !important;
+    }
+    .footer {
+        text-align: center;
+    }
+    .text-bg h2 {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .tag {
+        padding: 0px 0px !important;
+        bottom: 10px !important;
+    }
+    .Link-flow h3 a {
+        font-size: 19px;
+    }
+    .Link-flow span {
+        font-size: 28px !important;
+    }
+}
+@media (max-width: 425px) {
+    .row.justify-content-between.align-content-center.bg-copy {
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .box-abs .text blockquote p {
+        font-size: 14px !important;
+        line-height: 30px !important;
+    }
+    footer .img-logo-foot {
+        width: 32%;
+        margin: auto;
+    }
+    h3{
+        font-size: 25px !important;
+        line-height: 49px !important;
+    }
+    .text-section-img ul li {
+        font-size: 9px !important;
+    }
+    h2 {
+        font-size: 24px !important;
+        line-height: 49px;
+    }
+    p{
+        font-size: 14px !important;
+        line-height: 30px !important;
+    }
+    .bg-partners p {
+        font-size: 15px !important;
+    }
+    .bg-partners .textPar h4 {
+        font-size: 16px !important;
+    }
+    .bg-partners .textPar h6 {
+        font-size: 15px !important;
+    }
+    .bg-partners .ImgPar {
+        width: 130px !important;
+    }
+    .text-bg {
+        margin-top: 46px !important;
+    }
+    .text-bg .btns-bg {
+        margin-top: 0 !important;
+    }
+    .tag h4 {
+        font-size: 8px !important;
+        margin-inline-end: 0;
+    }
+    .tag span {
+        font-size: 8px !important;
+    }
+    footer .text-foot h2 {
+        font-size: 8px !important;
+    }
+    .btn1 {
+        font-size: 10px;
+        width: 98px;
+        height: 40px;
+    }
+}
+@media (max-width: 330px) {
+    h3 {
+        font-size: 12px !important;
+        line-height: 35px !important;
+    }
+    p {
+        margin-top: 20px;
+        font-size: 9px !important;
+        line-height: 23px !important;
+    }
+    .box-abs .text blockquote p {
+        font-size: 9px !important;
+        line-height: 25px !important;
+    }
+    small {
+        font-size: 9px;
+    }
+    .inside h2{
+        font-size: 20px !important;
+        line-height: 49px;
+    }
+    h2 {
+        font-size: 18px !important;
+    }
+    ul{
+        padding: 0;
+    }
+    .tag {
+        display: none !important;
+    }
+}

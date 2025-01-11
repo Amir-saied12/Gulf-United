@@ -1,0 +1,25 @@
+/*vendor*/
+@import url(./vendor/bootstrap.min.css);
+@import url(./vendor/splide.min.css);
+@import url(./vendor/all.min.css);
+@import url(./vendor/animate.css);
+
+/*base*/
+@import url(./base/base.css);
+
+/*component*/
+@import url(./components/btn.css);
+@import url(./components/heading.css);
+
+/*layout*/
+@import url(./layout/header.css);
+@import url(./layout/footer.css);
+
+/*responsive*/
+@import url(./responsive/responsive.css);
+
+/*pages*/
+@import url(./pages/Home.css);
+@import url(./pages/Robo.css);
+
+/*                                  */
